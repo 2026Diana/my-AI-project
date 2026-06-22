@@ -1,18 +1,16 @@
-# Movie and Book Recommendation System
-## 1. Summary
-The project is a personalized recommendation system for movies and books. It analyzes a user's past ratings and preferences to suggest new content they are highly likely to enjoy, utilizing machine learning similarity metrics.
-## 2. Background
-With millions of books and movies available online, users suffer from choice overload. This project solves the problem by filtering content automatically. It is important because it saves time for users and increases platform engagement for content providers.
+## Sistem de recomandare de filme si carti
 
-## 3. Data
-The system requires two types of data: content metadata (genres, authors, directors, release years) and user behavior data (ratings from 1 to 5, watch/read history). This data can be sourced from open datasets like MovieLens or the Goodreads API.
+## Rezumat
+Proiectul reprezinta un sistem de recomandare personalizat pentru filme si carti. Acesta analizeaza evaluarile si preferintele anterioare ale unui utilizator pentru a sugera continut nou pe care este foarte probabil sa il aprecieze, utilizand metrici de similitudine din invatarea automata.
 
-## 4. Algorithms
-The core engine uses the K-Nearest Neighbors (K-NN) algorithm based on Collaborative Filtering. It calculates the Euclidean distance or Cosine similarity between users. If User A and User B have very low distance (high similarity) in their ratings, the system recommends movies that User B liked but User A hasn't seen yet.
+## Context
+Avand in vedere milioanele de carti si filme disponibile online, utilizatorii sufera de o supraincarcare de optiuni. Acest proiect rezolva problema prin filtrarea automata a continutului. Este important deoarece economiseste timp pentru utilizatori si creste implicarea pe platforma pentru furnizorii de continut.
 
-## 5. Expected Impact
-The project will provide highly accurate, automated suggestions. Users will discover niche books and movies they wouldn't easily find otherwise. For businesses, this system can directly increase retention rates and daily active usage.
+## Date utilizate
+Sistemul necesita doua tipuri de date: metadate despre continut (genuri, autori, regizori, ani de lansare) si date privind comportamentul utilizatorilor (evaluari de la 1 la 5, istoricul de vizionare sau lectura). Aceste date pot fi preluate din seturi de date deschise precum MovieLens sau prin API-ul Goodreads.
 
-## 6. Shortcomings
-The main limitation is the 'Cold Start' problem: the system cannot give good recommendations to brand-new users who haven't rated anything yet. Additionally, it might create a 'Filter Bubble', repeatedly recommending the same genres and blocking content diversity.
-Use code with caution.💾 Pasul 3: Salvează modificărileÎn colțul din dreapta sus al editorului, apasă pe butonul verde Commit changes....Se va deschide o mică fereastră pop-up. Apasă din nou pe butonul verde Commit changes.🔗 Pasul 4: Trimite proiectulCopiază link-ul din bara de adrese a browserului tău (va arăta ca https://github.com).Mergi pe site-ul cursului Elements of AI la ultimul capitol, inserează acest link și completează textul în căsuțele de acolo.Spune-mi dacă ai găsit fișierul README.md sau dacă întâmpini vreo problemă!AI responses may include mistakes. Learn more
+## Algoritmi
+Motorul principal foloseste algoritmul K-Nearest Neighbors (K-NN) bazat pe Filtrare Colaborativa. Acesta calculeaza distanta euclidiana sau similitudinea cosinus intre utilizatori. Daca Utilizatorul A si Utilizatorul B au o distanta foarte mica (similitudine mare) in evaluarile lor, sistemul recomanda filme care i-au placut Utilizatorului B, dar pe care Utilizatorul A nu le-a vazut inca.
+
+## Impact estimat
+Proiectul va oferi sugestii automate cu o precizie ridicata. Utilizatorii vor descoperi carti si filme de nisa pe care altfel nu le-ar fi gasit cu usurinta. Pentru companii, acest sistem poate creste direct rata de retentie a utilizatorilor si timpul petrecut zilnic pe aplicatie.
