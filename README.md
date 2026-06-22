@@ -1,4 +1,4 @@
-# Proiect AI
+
 
 ## Rezumat
 Proiectul reprezinta un sistem de recomandare personalizat pentru filme si carti. Acesta analizeaza evaluarile si preferintele anterioare ale unui utilizator pentru a sugera continut nou pe care este foarte probabil sa il aprecieze, utilizand metrici de similitudine din invatarea automata.
