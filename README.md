@@ -1,4 +1,4 @@
-
+# Proiect AI
 
 ## Rezumat
 Proiectul reprezinta un sistem de recomandare personalizat pentru filme si carti. Acesta analizeaza evaluarile si preferintele anterioare ale unui utilizator pentru a sugera continut nou pe care este foarte probabil sa il aprecieze, utilizand metrici de similitudine din invatarea automata.
@@ -14,3 +14,4 @@ Motorul principal foloseste algoritmul K-Nearest Neighbors (K-NN) bazat pe Filtr
 
 ## Impact estimat
 Proiectul va oferi sugestii automate cu o precizie ridicata. Utilizatorii vor descoperi carti si filme de nisa pe care altfel nu le-ar fi gasit cu usurinta. Pentru companii, acest sistem poate creste direct rata de retentie a utilizatorilor si timpul petrecut zilnic pe aplicatie.
+
